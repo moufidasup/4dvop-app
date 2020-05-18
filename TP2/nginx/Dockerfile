@@ -2,6 +2,7 @@ FROM ubuntu
 MAINTAINER moufida
 ARG DEBIAN_FRONTEND=noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
+ENV sudo date --set="1971-01-02 23:31:59.990"  && date --rfc-3339=ns
 ENV TZ=Europe/Paris
 RUN apt-get update \
     && apt-get install -y nginx git
