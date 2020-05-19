@@ -13,9 +13,6 @@
       yum:
         name: python-pip
         state: latest
-    - name: Install docker-dnf
-      yum:
-        name: python-dnf
     - name: Install docker-py
       pip:
         name: docker-py
