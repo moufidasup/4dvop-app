@@ -16,9 +16,6 @@
     - name: Install docker-py
       pip:
         name: docker-py
-   
-        
-
 
   tasks:
     - name: Install yum utils
